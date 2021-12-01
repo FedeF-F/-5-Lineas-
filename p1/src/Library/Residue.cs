@@ -11,5 +11,13 @@ namespace Ucu.Poo.Defense
             this.Name = name;
             this.Type = type;
         }
+
+        public bool IsOrganic()
+        {
+            if (this.Type.IsOrganic == false){
+                return false;
+            }
+            return true;
+        }
     }
 }
